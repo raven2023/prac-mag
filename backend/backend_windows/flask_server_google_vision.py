@@ -34,7 +34,7 @@ ifLong = 1200
 counter = 0
 global_filename = ''
 ENDPOINT_URL = 'https://vision.googleapis.com/v1/images:annotate'
-api_key = "AIzaSyBPaGlI_UiPg3PKuIOEjtCG7vdTOyJkCb0"
+api_key = ""
 
 def encode_image(image_path):
   with open(image_path, "rb") as image_file:
