@@ -49,7 +49,7 @@ def handle_request():
 
     headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer "
+    "Authorization": f""
     }
 
     payload = {
